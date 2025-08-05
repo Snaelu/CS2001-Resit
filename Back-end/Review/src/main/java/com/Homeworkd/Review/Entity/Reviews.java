@@ -16,10 +16,10 @@ public class Reviews {
     @Column(name = "ReviewID")
     private long reviewID;
 
-    @Column(name = "stars")
+    @Column(name = "Stars")
     private int stars;
 
-    @Column(name = "Task Name")
+    @Column(name = "TaskName")
     private String taskName;
 
     @Column(name = "byLine")
