@@ -15,7 +15,7 @@ import com.Homeworkd.Review.Entity.Reviews;
 import com.Homeworkd.Review.Service.ReviewService;
 
 @RestController
-@RequestMapping("/api/rewards")
+@RequestMapping("/api/reviews")
 public class ReviewController {
 
     private final ReviewService reviewService;
