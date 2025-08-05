@@ -35,7 +35,7 @@ public class ReviewService {
     }
 
     //Update an existing Reviews
-    public Reviews updateReward(long id, Reviews reviewDetails) {
+    public Reviews updateReview(long id, Reviews reviewDetails) {
         Reviews review = reviewRepository.findById(id).orElseThrow(() -> new NoSuchElementException("Review not found"));
         review.setStars(reviewDetails.getStars());
         review.setTaskName(reviewDetails.getTaskName());
