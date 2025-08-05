@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-ReviewApplication<Review>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.Homeworkd.Review.ReviewApplication",
+      "projectName": "Review",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
